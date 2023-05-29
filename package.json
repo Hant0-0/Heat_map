@@ -10,10 +10,11 @@
     "@types/node": "^16.18.34",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
+    "html2canvas": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-heatmap-grid": "^0.9.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +40,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.13",
+    "@types/file-loader": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "chai": "^4.3.7",
+    "enzyme": "^3.11.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "file-loader": "^6.2.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5",
+    "url-loader": "^4.1.1"
   }
 }
