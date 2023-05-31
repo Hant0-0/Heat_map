@@ -1,11 +1,12 @@
 import React from 'react';
-import HeatMap from "./components/Heatmap";
 import './style/App.css'
+
+import ReadFile from "./components/ReadFile";
 
 function App() {
   return (
     <div className="App">
-      <HeatMap />
+      <ReadFile />
     </div>
   );
 }

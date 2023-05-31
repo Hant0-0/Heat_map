@@ -30,8 +30,8 @@
 }
 
 .heatmap-container {
-    margin-top: 30px;
-    margin-left: -35px;
+
+
     position: absolute;
     top: 0;
     left: 0;
@@ -45,11 +45,10 @@
 
 }
 
-.react-heatmap-grid-x-labels,
-.react-heatmap-grid-y-labels {
-    display: none;
-}
 
-.title {
-    text-align: center;
+
+
+.heatmap {
+    width: 800px;
+    height: 500px;
 }
